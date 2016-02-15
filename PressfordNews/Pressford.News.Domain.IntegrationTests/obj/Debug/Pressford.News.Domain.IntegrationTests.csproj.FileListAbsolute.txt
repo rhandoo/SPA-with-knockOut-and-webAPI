@@ -1,0 +1,6 @@
+V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain.IntegrationTests\bin\Debug\Pressford.News.Domain.IntegrationTests.dll.config
+V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain.IntegrationTests\bin\Debug\Pressford.News.Domain.IntegrationTests.dll
+V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain.IntegrationTests\bin\Debug\Pressford.News.Domain.IntegrationTests.pdb
+V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain.IntegrationTests\obj\Debug\Pressford.News.Domain.IntegrationTests.csprojResolveAssemblyReference.cache
+V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain.IntegrationTests\obj\Debug\Pressford.News.Domain.IntegrationTests.dll
+V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain.IntegrationTests\obj\Debug\Pressford.News.Domain.IntegrationTests.pdb

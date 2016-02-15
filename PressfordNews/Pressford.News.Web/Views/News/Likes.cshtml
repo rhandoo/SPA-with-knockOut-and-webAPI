@@ -1,0 +1,13 @@
+﻿<h2>Likes</h2>
+
+<table data-bind="with : ArticleLikes">
+    <thead>
+        <tr><th>Name</th>></tr>
+    </thead>
+    <tbody data-bind="foreach: Likes">
+        <tr>
+            <td data-bind="text: LikedBy"></td>
+  
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,7 @@
+V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain\bin\Debug\Pressford.News.Domain.dll.config
+V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain\bin\Debug\Pressford.News.Domain.dll
+V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain\bin\Debug\Pressford.News.Domain.pdb
+V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain\bin\Debug\EntityFramework.dll
+V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain\bin\Debug\EntityFramework.xml
+V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain\obj\Debug\Pressford.News.Domain.dll
+V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain\obj\Debug\Pressford.News.Domain.pdb

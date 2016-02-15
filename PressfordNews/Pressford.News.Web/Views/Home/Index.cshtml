@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "News";
+}
+
+
+<h2>PressfordNews</h2>
+<div class="publishContainer">
+    <textarea class="msgTextArea" id="txtMessage" data-bind="value: newArticle, jqAutoresize: {}" placeholder="..."></textarea>
+    <input type="button" value="Publish" id="btnShare" data-bind="click: addArticle">
+</div>
+
+<div>
+    <ul id="msgHolder" data-bind="foreach: articles">
+        <li class="postHolder">
+            <div>
+                <p><a data-bind="text: Author"></a>: <span data-bind="    html: Title"></span></p>
+                <textarea class="commentTextArea" data-bind="value: Content, jqAutoresize: {}"></textarea>
+            </div>
+            <div class="postFooter">
+
+                <div class="commentSection">
+                    <ul data-bind="foreach: Comments">
+                        <li class="commentHolder">
+                            <p><a data-bind="text: CommentedBy"></a>: <span data-bind="    html: Message"></span></p>
+                            <div class="commentFooter"> <span data-bind="text: CommentedDate"></span>&nbsp;</div>
+                        </li>
+                    </ul>
+                    <div style="display: block" class="publishComment">
+                        <textarea class="commentTextArea" data-bind="value: newCommentMessage, jqAutoresize: {}" placeholder="..."></textarea>
+                        <input type="button" value="Comment" class="btnComment" data-bind="click: addComment" />
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+</div>
+
+
+
+
+@section scripts{
+    @*Scripts.Render("~/bundles/jqueryui")*@
+    <script src="~/Scripts/jquery.autosize-min.js"></script>
+    <script src="~/Scripts/knockout-2.2.0.js"></script>
+    <script src="~/Scripts/News/newsViewModel.js"></script>
+}
