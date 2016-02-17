@@ -16,7 +16,8 @@ namespace Pressford.News.Web.Controllers
     [NewsDbContextFilter(typeof(NewsDbContext))]
     public class CommentController : ApiController
     {
-
+        //// Temp-commentId
+        private static int commentId = 1;
         private readonly IArticleRepository _articleRepository;
         private readonly INewsDtoBuilder _newsDtoBuilder;
 
@@ -40,6 +41,7 @@ namespace Pressford.News.Web.Controllers
             
             var comment = new Comment
             {
+                Id = commentId++,
                 Text = commentRequest.Message,
                 ArticleId = article.Id
             };

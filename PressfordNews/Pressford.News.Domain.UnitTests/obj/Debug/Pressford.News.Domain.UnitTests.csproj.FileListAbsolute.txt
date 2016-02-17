@@ -1,5 +1,4 @@
 V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain.UnitTests\bin\Debug\Pressford.News.Domain.UnitTests.dll
 V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain.UnitTests\bin\Debug\Pressford.News.Domain.UnitTests.pdb
-V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain.UnitTests\obj\Debug\Pressford.News.Domain.UnitTests.csprojResolveAssemblyReference.cache
 V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain.UnitTests\obj\Debug\Pressford.News.Domain.UnitTests.dll
 V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Domain.UnitTests\obj\Debug\Pressford.News.Domain.UnitTests.pdb

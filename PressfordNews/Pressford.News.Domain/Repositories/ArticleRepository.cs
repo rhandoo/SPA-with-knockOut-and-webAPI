@@ -53,7 +53,6 @@ namespace Pressford.News.Domain.Repositories
         {
             comment.CreatedBy = "rhandoo";
             comment.CreatedDate = DateTime.Now;
-                
             DbContext().Comment.Add(comment);
             DbContext().SaveChanges();
         }

@@ -27,7 +27,7 @@ namespace Pressford.News.Web
             config.Routes.MapHttpRoute(
            name: "Comments",
            routeTemplate: "Comments",
-           defaults: new { Controllers = "Comments", action = "Add" }
+           defaults: new { Controllers = "Comment", action = "Add" }
        );
 
             // Uncomment the following line of code to enable query support for actions with an IQueryable or IQueryable<T> return type.

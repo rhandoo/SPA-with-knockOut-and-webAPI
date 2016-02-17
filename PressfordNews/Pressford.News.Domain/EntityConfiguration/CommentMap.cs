@@ -11,6 +11,7 @@ namespace Pressford.News.Domain.EntityConfiguration
     {
         public CommentMap()
         {
+            HasKey(i => i.Id);
             ToTable("dbo.Comment");
         }
     }

@@ -13,16 +13,18 @@
 
     self.newCommentMessage = ko.observable();
     self.addComment = function () {
-        var comment = new Comment();
-        comment.ArticleId = self.ArticleId;
-        comment.Message(self.newCommentMessage());
+
+        var commentRequest = new Comment();
+        commentRequest.ArticleId = self.ArticleId;
+        commentRequest.Message(self.newCommentMessage());
+
         return $.ajax({
             url: commentApiUrl + "Add",
             dataType: "json",
             contentType: "application/json",
             cache: false,
             type: 'POST',
-            data: ko.toJSON(comment)
+            data: ko.toJSON(commentRequest)
         })
        .done(function (result) {
            self.Comments.push(new Comment(result));

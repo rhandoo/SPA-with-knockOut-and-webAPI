@@ -2,7 +2,6 @@
 var commentApiUrl = '/api/Comment/';
 var likeApiUrl = '/api/Like/';
 
-
 function newsViewModel() {
     var self = this;
     self.articles = ko.observableArray([]);
@@ -56,8 +55,6 @@ function newsViewModel() {
     return self;
 };
 
-
-//textarea autosize
 ko.bindingHandlers.jqAutoresize = {
     init: function (element, valueAccessor, aBA, vm) {
         if (!$(element).hasClass('msgTextArea')) {

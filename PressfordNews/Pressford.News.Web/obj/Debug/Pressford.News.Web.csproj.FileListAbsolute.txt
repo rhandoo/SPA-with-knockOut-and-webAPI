@@ -39,6 +39,7 @@ V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Web\bin\Newtonsoft.
 V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Web\bin\System.Net.Http.xml
 V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Web\bin\System.Net.Http.WebRequest.xml
 V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Web\bin\System.Web.Helpers.xml
+V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Web\bin\System.Web.Mvc.xml
 V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Web\bin\System.Web.Razor.xml
 V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Web\bin\System.Web.WebPages.xml
 V:\Rakesh\JS-PREP-2016\Projects\PressfordNews\Pressford.News.Web\bin\System.Web.WebPages.Deployment.xml
